@@ -40,6 +40,11 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String zhaoy271() {
+        return printLabMessage("Greetings, traveller", "Kevin Zhao", true,
+                "STOP! You violated the law. Pay the court a fine or serve your sentence. " +
+                        "Your stolen goods are now forfeit.");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(zhaoy271());
 
 
     }
