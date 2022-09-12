@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String yijamie() {
+        return printLabMessage("Greetings","Jamie", false, "Although I like fish even more!");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -60,7 +64,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(yijamie());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
