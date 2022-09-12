@@ -40,6 +40,13 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * A personalized method that calls on printLabMessage
+     */
+    public static String muzammi7() {
+        return printLabMessage("Hi", "Muhammad Muzammil", true,
+                "Have a good second year!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +66,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(muzammi7());
 
 
     }
