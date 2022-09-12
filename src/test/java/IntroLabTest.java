@@ -33,7 +33,7 @@ public class IntroLabTest {
 
     @Test(timeout = 100)
     public void testlobryson() {
-        String expected = "Nice to meet you! My name is Bryson! " +
+        String expected = "Nice to meet you! My name is Bryson! "  +
                 "I like dogs more than cats! Lets have a good time!";
         String actual = IntroLab.lobryson();
         assertEquals(expected, actual);
