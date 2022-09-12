@@ -33,7 +33,7 @@ public class IntroLabTest {
 
     @Test(timeout = 10)
     public void testPrintLabMessageTWhatley() {
-        String expected = "Hello! My name is Taylor Whatley! I like cats more than dogs! Hello CSC207.";
+        String expected = "Hello! My name is Taylor Whatley! I like cats more than dogs! Hello CSC207!";
         String actual = IntroLab.printLabMessageTWhatley();
         assertEquals(expected, actual);
     }
