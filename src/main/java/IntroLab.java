@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -49,6 +51,12 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    /*
+     * A method that calls printLabMessage using gratto19's details
+     */
+    public static String gratto19(){
+        return printLabMessage("Hello", "Jarod Gratton", true, "Amogus");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -60,7 +68,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(gratto19());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
