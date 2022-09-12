@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String englis57(){
+        return printLabMessage("Hi", "Julia English", true, "I am bad at programming!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,7 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(englis57());
 
     }
 
