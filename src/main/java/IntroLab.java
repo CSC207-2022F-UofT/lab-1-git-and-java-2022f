@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String lindav11() {
+        return printLabMessage("Hi", "David", true, "Welcome to CSC207!");
+    }
+
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -60,7 +65,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(lindav11());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

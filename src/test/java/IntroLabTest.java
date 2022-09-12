@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
 public class IntroLabTest {
     @Before
     public void setUp() {
+
     }
 
     @After
@@ -30,4 +31,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 10)
+    public void testDavidLin() {
+        String expected = "Hi! My name is David! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.lindav11();
+        assertEquals(expected, actual);
+    }
 }
