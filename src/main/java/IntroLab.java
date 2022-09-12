@@ -42,6 +42,21 @@ public class IntroLab {
      */
 
     /**
+     * An example method that calls printLabMessage with an additional parameter for age
+     * @param message_base  = base message outputed by printLabMessage
+     * @param message = message to be returned
+     * @param age = age of student (e.g. "18", "19")
+     * @return A message usng the given parameters
+     */
+    public static raoadit2 (String age) {
+        String message_base = printLabMessage("Hello there", "Adi", false,
+                "I am a second year Physics and Mathematics student. ");
+        String message = "I am " + age + " years old";
+        return message_base += message;
+    }
+
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +74,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(raoadit2());
 
 
     }
