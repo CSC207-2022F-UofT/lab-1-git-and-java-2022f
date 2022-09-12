@@ -59,7 +59,6 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
-
         System.out.println(rambaudj());
 
         /* TODO: Add a call to the method you wrote in this main method,
