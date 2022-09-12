@@ -41,7 +41,7 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
     public static String madelahn() {
-        return printLabMessage("Hi", "Maddie", true, "Nice to meet you!");
+        return printLabMessage("Hi", "Maddie", true, "Nice to meet you!!");
     }
 
     /**
