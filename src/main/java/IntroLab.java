@@ -33,13 +33,17 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
+    /* TODO: In the space below, write your method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
      *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
+    public static String cheu1405(){
+        return printLabMessage("Hello", "Boaz", false, "Welcome to 207!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +63,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(cheu1405());
 
 
     }
