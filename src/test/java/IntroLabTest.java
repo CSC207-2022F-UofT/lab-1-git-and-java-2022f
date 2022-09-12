@@ -32,6 +32,7 @@ public class IntroLabTest {
         String actual = IntroLab.liusamu1();
         assertEquals(expected, actual);
 
+
     }
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see

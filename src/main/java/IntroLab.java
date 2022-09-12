@@ -33,6 +33,7 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+
     public static String liusamu1() {
         return printLabMessage("Hello", "Sam", false, "Welcome");
     }
