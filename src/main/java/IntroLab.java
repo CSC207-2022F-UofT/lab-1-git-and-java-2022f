@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * Calls printLabMessage and print a message with my name.     *
+     */
+    public static String yangj378(){
+        return printLabMessage("Hey", "Jielin", true, "I have a cat.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +66,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+        System.out.println(yangj378());
 
 
     }
