@@ -37,7 +37,6 @@ public class IntroLabTest {
     public void testMyself() {
         String expected = "Yo! My name is Janssen! " +
                 "I like dogs more than cats! message message message";
-
         String actual = IntroLab.rambaudj();
         assertEquals(expected, actual);
     }
