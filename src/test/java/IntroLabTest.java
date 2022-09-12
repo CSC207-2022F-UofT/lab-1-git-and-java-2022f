@@ -17,11 +17,19 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 50)
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
         String actual = IntroLab.exampleStudent();
+        assertEquals(expected, actual);
+    }
+
+    @Test(timeout = 50)
+    public void testkalanika() {
+        String expected = "Hello! My name is Kaavya! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.kalanika();
         assertEquals(expected, actual);
     }
 
