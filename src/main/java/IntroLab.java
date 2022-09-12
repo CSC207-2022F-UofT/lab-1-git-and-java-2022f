@@ -33,6 +33,7 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
@@ -40,6 +41,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String lamchlo4() {
+        return printLabMessage("Hi", "Chloe", false, "Yay!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,6 +56,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(lamchlo4());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
