@@ -49,6 +49,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String marlowma() {
+        return printLabMessage("Hello", "Ben Marlow", true,
+                "Welcome to CSC207!");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,6 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(marlowma());
 
 
     }
