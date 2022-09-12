@@ -10,7 +10,6 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -41,6 +40,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String jinmiche() {
+        return printLabMessage("yo", "Michelle", true, "lol");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,6 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(jinmiche());
 
 
     }
