@@ -58,7 +58,7 @@ public class IntroLab {
 
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
+//        System.out.println(exampleStudent());
 
         System.out.println(rambaudj());
 
