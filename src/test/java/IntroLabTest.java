@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 40)
+    public void testpirachat() {
+        String expected = "Hey! My name is Taha Saeed! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.pirachat();
+        assertEquals(expected, actual);
+    }
 }
