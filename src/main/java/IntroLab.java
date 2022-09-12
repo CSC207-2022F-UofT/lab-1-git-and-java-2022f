@@ -40,6 +40,12 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * A method that calls on printLabMessage.
+     */
+    public static String fitzg133() {
+        return printLabMessage("Hello", "John", false, "Hi there!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -60,6 +66,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(fitzg133());
 
     }
 
