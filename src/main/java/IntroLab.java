@@ -40,7 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String uyhan() {
+        return printLabMessage("Hi", "Khang",true, "But dogs are great too");
+    }
     /**
      * An example method that calls on printLabMessage.
      */
