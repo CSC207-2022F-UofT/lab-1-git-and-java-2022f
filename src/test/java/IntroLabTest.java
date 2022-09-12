@@ -17,7 +17,7 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 100)
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
@@ -25,7 +25,15 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
-    /* TODO: Write a test case for the method you wrote in IntroLab.
+    @Test(timeout = 100)
+    public void testMehdiya2() {
+        String expected = "Hola! My name is Parmis Mehdiyar! " +
+                "I like dogs more than cats! Welcome to CSC207!";
+        String actual = IntroLab.mehdiya2();
+        assertEquals(expected, actual);
+    }
+
+    /* DONE: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
      * As a reference, we've included testExampleStudent above.

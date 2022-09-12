@@ -33,7 +33,7 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
+    /* DONE: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
      *
@@ -44,6 +44,12 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
+
+    public static String mehdiya2() {
+        return printLabMessage("Hola", "Parmis Mehdiyar", false,
+                "Welcome to CSC207!");
+    }
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");
@@ -52,8 +58,9 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(mehdiya2());
 
-        /* TODO: Add a call to the method you wrote in this main method,
+        /* DONE: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
          * As a reference, we've provided a sample call to exampleStudent
@@ -63,6 +70,6 @@ public class IntroLab {
 
     }
 
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+    // DONE: Go to test/java/IntroLabTest.java afterwards and complete the DONE.
 
 }
