@@ -33,11 +33,10 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    public static String Message1008074771(){
-        return printLabMessage("Hi", "sam", true, "Very cool");
-    }
-
-     /*
+    /* TODO: In the space below, write your our method.
+     *       The method should be named with your utorID and should call
+     *       printLabMessage with some parameters.
+     *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */

@@ -25,13 +25,6 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
-
-    @Test(timeout = 10)
-    public void Message1008074771(){
-        String expected = "Hi! My name is sam! " + "I like cats more than dogs! Very cool";
-        String actual = IntroLab.Message1008074771();
-        assertEquals(expected, actual);
-    }
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
