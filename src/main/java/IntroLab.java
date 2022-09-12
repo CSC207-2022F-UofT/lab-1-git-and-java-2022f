@@ -42,6 +42,14 @@ public class IntroLab {
      */
 
     /**
+     * A method that calls printLabMessage() with my custom Strings.
+     * @return A call to printLabMessage().
+     */
+    public static String leidenfr(){
+        return printLabMessage("Hi", "Johann Leidenfrost", true, "To a great life!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +67,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(leidenfr());
 
 
     }
