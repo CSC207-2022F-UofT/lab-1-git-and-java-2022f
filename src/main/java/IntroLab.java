@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String banialdo() {
+        return printLabMessage("Salutations", "Aldo", false, "Hop on TF2");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -60,7 +63,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(banialdo());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
