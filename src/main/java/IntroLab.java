@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String printLabMessageTWhatley() {
+        return printLabMessage("Hello", "Taylor Whatley", true, "Hello CSC207!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -60,7 +63,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(printLabMessageTWhatley());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
