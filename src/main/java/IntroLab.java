@@ -41,6 +41,15 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    /** Returns some string related to Clark
+     *
+     * @return Clark's greeting
+     */
+    public static String zhangcl5() {
+        return printLabMessage("Hello", "Clark", true,
+                "I am Clark");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,6 +68,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(zhangcl5());
 
 
     }
