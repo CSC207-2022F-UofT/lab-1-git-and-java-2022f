@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String aroraa39(String greeting, String name, boolean likes_cats, String messages) {
+        return printLabMessage(greeting, name, likes_cats, messages);
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */

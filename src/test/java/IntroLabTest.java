@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void test_aroraa39() {
+        String expected = "Hello! My name is Rowan! " + "I like cats more than dogs! " +
+                "Looking forward to working with you this year!";
+        String actual = IntroLab.aroraa39("Hello", "Rowan", true,
+                "Looking forward to working with you this year!");
+        assertEquals(expected, actual);
+    }
 }
