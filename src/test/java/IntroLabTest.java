@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void testPoonnic4() {
+        String expected = "Welcome! My name is Nicholas! " +
+                "I like dogs more than cats! Hello!";
+        String actual = IntroLab.poonnic4();
+        assertEquals(expected, actual);
+    }
+
 }
