@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test
+    public void testShiche29() {
+        String expected = "helo! My name is R. S.! I like cats more than dogs! welcome!";
+        String actual = IntroLab.shiche29();
+        assertEquals(expected, actual);
+    }
 }
