@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String tsangj25() {
+        return printLabMessage("Hello", "Jackson", false ,"I am 19" );
+    }
 
     /**
      * An example method that calls on printLabMessage.
