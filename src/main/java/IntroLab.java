@@ -33,7 +33,7 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    public static String Message1008074771(){
+    public static String MessageSam(){
         return printLabMessage("Hi", "sam", true, "Very cool");
     }
 

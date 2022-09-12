@@ -27,9 +27,9 @@ public class IntroLabTest {
 
 
     @Test(timeout = 10)
-    public void Message1008074771(){
+    public void MessageSam(){
         String expected = "Hi! My name is sam! " + "I like cats more than dogs! Very cool";
-        String actual = IntroLab.Message1008074771();
+        String actual = IntroLab.MessageSam();
         assertEquals(expected, actual);
     }
     /* TODO: Write a test case for the method you wrote in IntroLab.
