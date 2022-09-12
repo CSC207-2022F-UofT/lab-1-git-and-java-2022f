@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testMainStudent() {
+        String expected = "Hi! My name is Ali! I like dogs more than cats! This is a test";
+        String actual = IntroLab.azimiTab();
+        assertEquals(expected, actual);
+    }
 }
