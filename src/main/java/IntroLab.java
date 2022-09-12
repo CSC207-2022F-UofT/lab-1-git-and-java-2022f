@@ -41,6 +41,13 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String rambaudj() {
+        return printLabMessage("Yo", "Janssen", false,
+                "message message message");
+    }
+
+
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -52,6 +59,8 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+
+        System.out.println(rambaudj());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
