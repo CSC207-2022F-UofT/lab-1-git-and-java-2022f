@@ -52,11 +52,12 @@ public class IntroLab {
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+        return printLabMessage("Hello", "Stu ent", true,
                 "Welcome to CSC207!");
 
 
     }
+
     public static String oyunbaa1() {
         return printLabMessage("Hello", "Erka", false, "Hello Everyone");
     }

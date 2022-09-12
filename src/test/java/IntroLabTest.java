@@ -19,7 +19,7 @@ public class IntroLabTest {
 
     @Test(timeout = 10)
     public void testExampleStudent() {
-        String expected = "Hello! My name is Stu Dent! " +
+        String expected = "Hello! My name is Stu ent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
         String actual = IntroLab.exampleStudent();
         assertEquals(expected, actual);
@@ -35,6 +35,7 @@ public class IntroLabTest {
         String expected = "Hi! My name is Muhammad Muzammil! I like cats more than dogs! Have a good second year!";
         String actual = IntroLab.muzammi7();
         assertEquals(expected, actual);
+    }
     @Test
     public void testoyunbaa1() {
         String expected = "Hello! My name is Erka! I like dogs more than cats! Hello Everyone";
