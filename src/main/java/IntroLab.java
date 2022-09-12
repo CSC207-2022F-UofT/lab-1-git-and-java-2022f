@@ -63,7 +63,6 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
