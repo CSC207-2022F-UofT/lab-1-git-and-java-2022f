@@ -42,7 +42,7 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
     public static String lamchlo4() {
-        return printLabMessage("Hi", "Chloe", false, "Yay!");
+        return printLabMessage("Hi", "Chloe", true, "Yay!");
     }
 
     /**
