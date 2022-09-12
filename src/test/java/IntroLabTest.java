@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    public void testGacesara() {
+        String expected = "Hello! My name is Rafael! " +
+                "I like cats more than dogs! Bye!";
+        String actual = IntroLab.gacesara();
+        assertEquals(expected, actual);
+    }
 }
