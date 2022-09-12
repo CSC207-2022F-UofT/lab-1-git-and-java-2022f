@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -49,7 +51,9 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
-
+    public static String jordanew(){
+        return printLabMessage("Hi there", "Ewan",true, "YEEEEHAW!!");
+    }
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
@@ -59,6 +63,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(jordanew());
 
 
     }
