@@ -30,11 +30,19 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
     @Test(timeout = 10)
     public void testJeffStudent() {
         String expected = "hi! My name is jeff! " +
                 "I like cats more than dogs! no";
         String actual = IntroLab.liujef11();
+        assertEquals(expected, actual);
+    }
+
+    @Test(timeout=10)
+    public void testShiEric3() {
+        String expected = "Hey! My name is Eric Shi! I like cats more than dogs! God I love Java.";
+        String actual = IntroLab.shieric3();
         assertEquals(expected, actual);
     }
 }
