@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     *
+     */
+    public static String desou245() {
+        return printLabMessage("Hello", "Jacob", false, "Goodbye!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,7 +66,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(desou245());
 
     }
 
