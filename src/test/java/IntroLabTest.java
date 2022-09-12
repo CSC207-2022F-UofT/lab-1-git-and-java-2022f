@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test
+    public void testlaualli1(){
+        String expected = "Hey! My name is Allison! " + "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.laualli1();
+        assertEquals(expected, actual);
+    }
 }
