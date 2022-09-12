@@ -29,6 +29,5 @@ public class IntroLabTest {
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
      * As a reference, we've included testExampleStudent above.
-     *
      */
 }

@@ -18,8 +18,7 @@ public class IntroLab {
      * @param likes_cats A boolean: true if they like cats more than dogs,
      *                   false otherwise.
      * @param message    A message to be printed out.
-     * @return A message using the given parameters.
-     *
+     * @return A message using the given parameters
      */
     public static String printLabMessage(String greeting, String name,
                                   boolean likes_cats, String message) {
