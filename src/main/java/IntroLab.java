@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String cheseldi() {
+        return printLabMessage("Hello", "Luke", false, "I like the color blue");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,8 +63,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(cheseldi());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
