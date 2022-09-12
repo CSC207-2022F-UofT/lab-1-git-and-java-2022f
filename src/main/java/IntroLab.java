@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String dengsiy1(String greeting, String my_name, boolean likes_cat, String message) {
+        return printLabMessage(greeting, my_name, likes_cat, message);
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,7 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(dengsiy1("Hiii", "Daisy", true, "OK!"));
 
     }
 
