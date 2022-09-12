@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test
+    public void testscobice() {
+        String expected = "Greetings and salutations! My name is Lady Elena II! " + "I like cats more than dogs! Hit thy griddy";
+        String actual = IntroLab.scobice();
+        assertEquals(expected, actual);
+    }
 }
