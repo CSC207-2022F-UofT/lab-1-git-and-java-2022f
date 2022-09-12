@@ -23,7 +23,7 @@ public class IntroLab {
     public static String printLabMessage(String greeting, String name,
                                   boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
-
+        // Heyy this is the new message that I'm going to include in my next commit
         if (likes_cats) {
             message_to_print += "I like cats more than dogs! ";
         } else {
