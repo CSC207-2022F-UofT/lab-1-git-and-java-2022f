@@ -41,7 +41,7 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
     public static String tsangj25() {
-        return printLabMessage("Hello", "Jackson", false ,"I am 19" );
+        return printLabMessage("Hello", "Jackson", false ,"I am 19!" );
     }
 
     /**
