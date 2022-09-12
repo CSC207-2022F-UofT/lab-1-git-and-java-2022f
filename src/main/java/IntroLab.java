@@ -10,7 +10,7 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
+     * <p>
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -21,7 +21,7 @@ public class IntroLab {
      * @return A message using the given parameters.
      */
     public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+                                         boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
 
         if (likes_cats) {
@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * @return A greeting message
+     */
+    public static String lisinan2() {
+        return printLabMessage("Hi", "Sinan (Lance) Li", true, "Hello java, hello everyone!");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -60,7 +67,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(lisinan2());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

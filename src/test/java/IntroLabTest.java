@@ -30,4 +30,7 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    public void testlisinan2() {
+        String expected = "Hi! My name is Sinan (Lance) Li! I like cats more than dogs! Hello java, hello everyone!";
+    }
 }
