@@ -33,13 +33,23 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
+    /* In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
      *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+
+    /**
+     * This method will print a li'l message with li'l ol' me in it.
+     *
+     * @return A message that is as honest to my character as humanly possible.
+     */
+    public static String macha106() {
+        return printLabMessage("How we feelin', boys?", "Marcial", false, "The Reds" +
+                " are the worst team on planet Earth.");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -52,8 +62,9 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(macha106());
 
-        /* TODO: Add a call to the method you wrote in this main method,
+        /* Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
          * As a reference, we've provided a sample call to exampleStudent
@@ -63,6 +74,6 @@ public class IntroLab {
 
     }
 
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+    // Go to test/java/IntroLabTest.java afterwards and complete the TO didlly DO.
 
 }

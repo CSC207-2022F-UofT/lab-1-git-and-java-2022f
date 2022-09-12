@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 50)
+    public void testMacha106() {
+        String actual = IntroLab.macha106();
+        String expected = "How we feelin', boys?! My name is Marcial! I like dogs more than cats! The Reds are the" +
+                " worst team on planet Earth.";
+        assertEquals(actual, expected);
+    }
 }
