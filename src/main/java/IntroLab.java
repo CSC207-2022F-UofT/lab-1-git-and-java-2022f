@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * A method that prints Ashley's lab message.
+     */
+    public static String adewitte() {
+        return printLabMessage("Hi", "Ashley", false, ":D");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,7 +66,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(adewitte());
 
     }
 
