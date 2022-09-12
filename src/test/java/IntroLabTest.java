@@ -36,4 +36,5 @@ public class IntroLabTest {
         String actual = IntroLab.shiche29();
         assertEquals(expected, actual);
     }
+
 }

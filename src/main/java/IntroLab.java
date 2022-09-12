@@ -66,7 +66,4 @@ public class IntroLab {
 
 
     }
-
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
-
 }
