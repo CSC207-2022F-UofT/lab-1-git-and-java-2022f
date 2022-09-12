@@ -31,6 +31,14 @@ public class IntroLabTest {
      * As a reference, we've included testExampleStudent above.
      */
 
+    @Test(timeout = 10)
+    public void testMySuperMethod() {
+        String expected = "Hello! My name is Andrew Serdiuk! " +
+                "I like cats more than dogs! What is your name?";
+        String actual = IntroLab.serdiuka();
+        assertEquals(expected, actual);
+    }
+
     @Test()
     public void testPanasale() {
         String expected = "Good Evening! My name is Aleksey! I like dogs more than cats! Goodbye";

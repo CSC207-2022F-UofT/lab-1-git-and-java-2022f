@@ -53,6 +53,9 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String serdiuka() {
+        return printLabMessage("Hello", "Andrew Serdiuk", true, "What is your name?");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
