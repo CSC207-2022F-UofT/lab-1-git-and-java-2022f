@@ -34,6 +34,6 @@ public class IntroLabTest {
     @Test(timeout = 30)
     public void testTsangj25() {
         String expected = "Hello! My name is Jackson! " +
-                "I like dogs more than cats! I am 19"
+                "I like dogs more than cats! I am 19!"
     }
 }
