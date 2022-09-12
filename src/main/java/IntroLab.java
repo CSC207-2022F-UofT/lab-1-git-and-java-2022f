@@ -40,6 +40,18 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String kabirjah(String greeting, String name,
+                                  boolean likes_cats, String message,
+                                  boolean cs_student) {
+        String message_to_print = printLabMessage(greeting, name, likes_cats, message);
+        if (cs_student) {
+            message_to_print += " I <3 CS!";
+        } else {
+            message_to_print += " I'm not a CS student.";
+        }
+
+        return message_to_print;
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +71,9 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+        System.out.println(kabirjah("Hello", "Jahin Kabir", true,
+                "Welcome to CSC207!", false));
 
 
     }
