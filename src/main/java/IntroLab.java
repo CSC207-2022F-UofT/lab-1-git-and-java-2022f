@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String printUtorID(String utorid) {
+        return printLabMessage("Hello my name is", utorid, false, "Welcome.");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -52,6 +56,8 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+
+        System.out.println(printUtorID("234234234"));
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
