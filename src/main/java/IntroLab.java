@@ -19,6 +19,7 @@ public class IntroLab {
      *                   false otherwise.
      * @param message    A message to be printed out.
      * @return A message using the given parameters.
+     *
      */
     public static String printLabMessage(String greeting, String name,
                                   boolean likes_cats, String message) {
