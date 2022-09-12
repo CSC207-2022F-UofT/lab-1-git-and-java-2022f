@@ -23,11 +23,14 @@ public class IntroLabTest {
                 "I like cats more than dogs! Welcome to CSC207!";
         String actual = IntroLab.exampleStudent();
         assertEquals(expected, actual);
+
     }
 
-    /* TODO: Write a test case for the method you wrote in IntroLab.
-     *       If done properly, you should be able to run IntroLabTest and see
-     *       the test results.
-     * As a reference, we've included testExampleStudent above.
-     */
+    @Test
+    public void testSwaner2() {
+        String expected = "hello there! My name is Jessica! " +
+                "I like cats more than dogs! I like to sleep.";
+        String actual = IntroLab.swaner2();
+        assertEquals(expected, actual);
+    }
 }
