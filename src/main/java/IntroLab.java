@@ -44,15 +44,15 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
-    public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+    public static String vangipu2() {
+        return printLabMessage("Hello", "Vivek", false,
                 "Welcome to CSC207!");
     }
 
 
-    public static void main(final String[] args) {
-        System.out.println(exampleStudent());
 
+    public static void main(final String[] args) {
+        System.out.println(vangipu2());
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
