@@ -25,9 +25,11 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
-    /* TODO: Write a test case for the method you wrote in IntroLab.
-     *       If done properly, you should be able to run IntroLabTest and see
-     *       the test results.
-     * As a reference, we've included testExampleStudent above.
-     */
+
+    public void testHarkerph() {
+        String expected = "Salutations! My name is Philip Harker!" +
+                "I like cats more than dogs! Climate Action Now!";
+        String actual = IntroLab.harkerph();
+        assertEquals(expected, actual);
+    }
 }
