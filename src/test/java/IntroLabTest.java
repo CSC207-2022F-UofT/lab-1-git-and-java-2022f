@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test
+    public void testHuimich5() {
+        String expected = "Heya! My name is Michael! I like cats more than dogs! " +
+                "Hopefully this works!";
+        String actual = IntroLab.huimich5();
+        assertEquals(expected, actual);
+    }
 }
