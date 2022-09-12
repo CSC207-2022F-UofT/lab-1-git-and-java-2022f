@@ -40,12 +40,15 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String raadraiy(){
+        return printLabMessage("Hey", "Raiyan", false, " :3");
+    }
 
     /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+        return printLabMessage("Hello", "Stu Dent", false,
                 "Welcome to CSC207!");
     }
 
@@ -59,6 +62,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        String result = raadraiy();
+        System.out.println(result);
 
 
     }
