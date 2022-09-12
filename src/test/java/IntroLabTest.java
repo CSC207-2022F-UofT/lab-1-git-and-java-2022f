@@ -5,7 +5,6 @@
  */
 
 import org.junit.*;
-
 import static org.junit.Assert.*;
 
 public class IntroLabTest {
@@ -30,4 +29,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testraiyan() {
+        String expected = "Hey! My name is Raiyan! I like dogs more than cats!  :3";
+        String actual = IntroLab.raadraiy();
+        assertEquals(expected, actual);
+    }
+
 }
