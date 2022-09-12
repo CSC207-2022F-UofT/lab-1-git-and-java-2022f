@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String jesurumc() {
+        return printLabMessage("Hey guys", "Daniel", false, "Let's Go");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
