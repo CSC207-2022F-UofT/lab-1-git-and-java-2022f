@@ -40,6 +40,13 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * A method that calls printLabMessage custom to student Samuel
+     */
+    public static String ruosamue(){
+        return printLabMessage("Hello", "Samuel", true,
+                "Welcome to CSC207!");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +66,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(ruosamue());
 
 
     }
