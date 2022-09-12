@@ -46,12 +46,18 @@ public class IntroLab {
      */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
+                "sup_erc_ell!");
+    }
+
+    public static String adlerda4() {
+        return printLabMessage("sup", "David A", true,
                 "Welcome to CSC207!");
     }
 
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(adlerda4());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
