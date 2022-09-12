@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * tuspar's Print Lab Function
+     */
+    public static String kanchant() {
+        return printLabMessage("Hi", "Tushar", true, "Yay");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -60,7 +67,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(kanchant());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.

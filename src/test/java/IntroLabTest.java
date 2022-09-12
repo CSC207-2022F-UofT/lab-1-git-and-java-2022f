@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testKanchant() {
+        String expected = "Hi! My name is Tushar! " +
+                "I like cats more than dogs! Yay";
+        String actual = IntroLab.kanchant();
+        assertEquals(expected, actual);
+    }
 }
