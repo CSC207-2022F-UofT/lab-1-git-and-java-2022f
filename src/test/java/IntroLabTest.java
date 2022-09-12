@@ -17,7 +17,7 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 50)
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 50)
+    public void testPanhanna() {
+        String expected = "Hello! My name is Hannah! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.panhanna();
+        assertEquals(expected, actual);
+    }
+
 }

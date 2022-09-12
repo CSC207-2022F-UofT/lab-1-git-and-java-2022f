@@ -49,6 +49,11 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String panhanna(){
+        return printLabMessage("Hello", "Hannah", true,
+                "Welcome to CSC207!");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -60,7 +65,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(panhanna());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
