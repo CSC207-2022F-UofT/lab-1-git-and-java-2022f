@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String wangbri6() {
+        return printLabMessage("Hello", "Brian Wang", true, "Welcome to CSC207!");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
