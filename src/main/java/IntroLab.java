@@ -42,7 +42,7 @@ public class IntroLab {
      */
     public static String Chen1261(){
 
-        return printLabMessage("Hello", "Yufei", true, "I love Java");
+        return printLabMessage("Hello", "Yufei", true, "I love Java!!");
     }
     /**
      * An example method that calls on printLabMessage.
