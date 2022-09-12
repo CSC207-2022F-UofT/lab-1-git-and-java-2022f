@@ -42,6 +42,14 @@ public class IntroLab {
      */
 
     /**
+     * An example method that calls on printLabMessage using James' info.
+     */
+    public static String chenx738() {
+        return printLabMessage("Hello", "James", true,
+                "This is my first Java message in 2022.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -60,6 +68,7 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
+        System.out.println(chenx738());
 
     }
 
