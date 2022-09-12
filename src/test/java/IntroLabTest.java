@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    public void testWillisde() {
+        String expected = "Hello! My name is Derrick! " +
+                "I like dogs more than cats! Welcome to CSC207!";
+        String actual = IntroLab.willisde();
+        assertEquals(expected, actual);
+    }
+
 }
