@@ -10,7 +10,7 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
+     * <p>
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -44,14 +44,14 @@ public class IntroLab {
     /**
      * An example method that calls on printLabMessage.
      */
-    public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+    public static String bhematfa() {
+        return printLabMessage("Hello", "Faizaan Bhemat", true,
                 "Welcome to CSC207!");
     }
 
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
+        System.out.println(bhematfa());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
