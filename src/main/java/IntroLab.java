@@ -41,6 +41,11 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String exampleChaucla1() {
+        return printLabMessage("Yo", "Clarence", false, "I am excited for this course!");
+    }
+
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -52,6 +57,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(exampleChaucla1());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
