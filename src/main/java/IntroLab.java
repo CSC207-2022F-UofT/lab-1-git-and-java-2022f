@@ -40,6 +40,9 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    public static String leegeon4(){
+        return printLabMessage("Hi! :)", "Geo", true, "Hahaha");
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -59,6 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(leegeon4());
 
 
     }
