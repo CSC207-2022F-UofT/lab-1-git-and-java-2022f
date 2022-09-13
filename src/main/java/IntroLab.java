@@ -49,9 +49,16 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String corlett3() {
+        return printLabMessage("Hello", "Seamus Corlett", true,
+                "Here's my message!");
+    }
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(corlett3());
+
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
