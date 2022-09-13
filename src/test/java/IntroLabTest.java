@@ -8,6 +8,7 @@ import org.junit.*;
 
 import static org.junit.Assert.*;
 
+
 public class IntroLabTest {
     @Before
     public void setUp() {
@@ -21,7 +22,7 @@ public class IntroLabTest {
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
-        String actual = IntroLab.exampleStudent();
+        String actual = IntroLab.Cheu1449();
         assertEquals(expected, actual);
     }
 
