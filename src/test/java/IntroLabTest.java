@@ -17,17 +17,18 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
         String actual = IntroLab.exampleStudent();
         assertEquals(expected, actual);
     }
-
-    /* TODO: Write a test case for the method you wrote in IntroLab.
-     *       If done properly, you should be able to run IntroLabTest and see
-     *       the test results.
-     * As a reference, we've included testExampleStudent above.
-     */
+    @Test
+    public void testMyCode() {
+        String expected = "Hello! My name is Jerry! I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.wang1978();
+        assertEquals(expected, actual);
+    }
 }
+
