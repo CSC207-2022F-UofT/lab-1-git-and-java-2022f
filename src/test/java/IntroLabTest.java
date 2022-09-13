@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test
+    public void testQuanIan() {
+        String expected = "Hello! My name is Ian Quan! " +
+                "I like cats more than dogs! Welcome to CSC207!";
+        String actual = IntroLab.quanian();
+        assertEquals(expected, actual);
+    }
 }
