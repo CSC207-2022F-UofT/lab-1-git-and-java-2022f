@@ -28,7 +28,7 @@ public class IntroLabTest {
     @Test(timeout = 10)
     public void testMaxLyu() {
         String expected = "Hello! My name is Max Lyu! " +
-                "I like dogs more than cats! I don't want to go to school!";
+                "I like dogs more than cats! I like Paradox games!";
         String actual = IntroLab.maxLyu();
         assertEquals(expected, actual);
     }

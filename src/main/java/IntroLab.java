@@ -34,7 +34,7 @@ public class IntroLab {
     }
     public static String maxLyu() {
         return printLabMessage("Hello", "Max Lyu", false,
-                "I don't want to go to school!");
+                "I like Paradox games!");
     }
 
     /**
