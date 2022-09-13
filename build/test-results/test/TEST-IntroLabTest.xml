@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntroLabTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-12T23:53:54" hostname="MISS-TORONTO" time="0.01">
+  <properties/>
+  <testcase name="testExampleStudent" classname="IntroLabTest" time="0.009"/>
+  <testcase name="testMaxLyu" classname="IntroLabTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
