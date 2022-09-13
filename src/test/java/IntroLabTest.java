@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test
+    public void testChenoce1() {
+        String expected = "Hi! My name is Ocean Chen! I like cats more than dogs! I like dogs too";
+        String actual = IntroLab.chenoce1();
+        assertEquals(expected, actual);
+    }
 }
