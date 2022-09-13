@@ -40,12 +40,20 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String funggrac() {
+        return printLabMessage("Hello", "Grace", true,
+                "Nice to meet you!");
+    }
     /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
+                "Welcome to CSC207!");
+    }
+
+    public static String thoma315() {
+        return printLabMessage("Hello", "Roney", true,
                 "Welcome to CSC207!");
     }
 
@@ -59,8 +67,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(funggrac());
+        System.out.println(thoma315());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
