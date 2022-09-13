@@ -49,9 +49,17 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    /**
+     * My method that calls on printLabMessage.
+     */
+    public static String pittsjam() {
+        return printLabMessage("Hello", "James Tavares-Pitts", true,
+                "Welcome to CSC207!");
+    }
+
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
+        System.out.println(pittsjam());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
@@ -59,6 +67,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+
 
 
     }
