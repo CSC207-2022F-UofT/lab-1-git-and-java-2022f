@@ -33,13 +33,15 @@ public class IntroLab {
         return message_to_print + message;
     }
 
-    /* TODO: In the space below, write your our method.
-     *       The method should be named with your utorID and should call
-     *       printLabMessage with some parameters.
+
+    /***
+     * A method that returns a introduction message from jasmine
      *
-     * As a reference, we've provided the sample method exampleStudent.
-     * Make sure you document your method properly!
      */
+    public static String zha11734() {
+        return printLabMessage("hihi", "jasmine", true, "yay");
+
+    }
 
     /**
      * An example method that calls on printLabMessage.
@@ -53,16 +55,10 @@ public class IntroLab {
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
-        /* TODO: Add a call to the method you wrote in this main method,
-         *        and print the results of it.
-         *
-         * As a reference, we've provided a sample call to exampleStudent
-         * above. Afterwards: run this file to see the output!
-         */
-
+        System.out.println(zha11734());
 
     }
 
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
+
 
 }
