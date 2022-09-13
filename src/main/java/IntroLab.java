@@ -41,6 +41,10 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
+    public static String nguy3047() {
+        return printLabMessage("Yo!", "Darlyn", false, "xd");
+    }
+
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,8 +63,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
-
+        System.out.println(nguy3047());
     }
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
