@@ -30,4 +30,11 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test
+    public void testGillisc6() {
+        String expected = "Hi there! My name is Clare! I like dogs more than cats! Please work!!";
+        String actual = IntroLab.gillisc6();
+        assertEquals(expected, actual);
+    }
 }
