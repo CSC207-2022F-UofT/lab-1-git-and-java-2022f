@@ -45,9 +45,15 @@ public class IntroLab {
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
+        return printLabMessage("Hello", "Ethan Seet", true,
                 "Welcome to CSC207!");
     }
+
+    public static String eth178() {
+        return printLabMessage("Hello", "Ethan Seet", true,
+                "Welcome to CSC207!");
+    }
+
 
 
     public static void main(final String[] args) {
@@ -60,8 +66,12 @@ public class IntroLab {
          * above. Afterwards: run this file to see the output!
          */
 
-
+        System.out.println(eth178());
     }
+
+
+
+
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
