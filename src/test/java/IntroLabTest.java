@@ -30,4 +30,10 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 100)
+    public void testLeegeon4() {
+        String expected = "Hi! :)! My name is Geo! I like cats more than dogs! Hahaha";
+        String actual = IntroLab.leegeon4();
+        assertEquals(expected, actual);
+    }
 }
