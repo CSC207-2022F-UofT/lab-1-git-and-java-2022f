@@ -42,6 +42,14 @@ public class IntroLab {
      */
 
     /**
+     * A method to greet Armon.
+     */
+    public static String jamalza9() {
+        return printLabMessage("Hi there", "Armon", true,
+                "How's it hanging");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -52,6 +60,7 @@ public class IntroLab {
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(jamalza9());
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
