@@ -40,16 +40,17 @@ public class IntroLab {
      * Make sure you document your method properly!
      */
 
-    public static String lungerjo(){
+    public static String lungerjo() {
 
         return printLabMessage("Hi", "Josh Lunger", false,
                 "I am looking forward to designing some software!");
-
     }
 
-    /**
-     * An example method that calls on printLabMessage.
-     */
+    public static String huyizhi1() {
+        return printLabMessage("Hi", "Mason Hu", false,
+                "I am looking forward to designing some software!");
+    }
+
     public static String exampleStudent() {
         return printLabMessage("Hello", "Stu Dent", true,
                 "Welcome to CSC207!");

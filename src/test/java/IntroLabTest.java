@@ -40,4 +40,12 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testhuyizhi1() {
+        String expected = "Hi! My name is Mason Hu! " +
+                "I like dogs more than cats! I am looking forward to designing some software!";
+        String actual = IntroLab.huyizhi1();
+        assertEquals(expected, actual);
+    }
+
 }
