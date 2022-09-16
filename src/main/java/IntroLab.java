@@ -37,6 +37,7 @@ public class IntroLab {
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
      *
+     *
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
@@ -49,6 +50,10 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String choiethe() {
+        return printLabMessage("Hi!", "Ethelia", false,
+                "Wbu?");
+    }
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
@@ -59,7 +64,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(choiethe());
 
     }
 
