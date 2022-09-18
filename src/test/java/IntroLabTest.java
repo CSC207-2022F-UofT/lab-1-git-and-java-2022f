@@ -24,6 +24,7 @@ public class IntroLabTest {
         String actual = IntroLab.exampleStudent();
         assertEquals(expected, actual);
     }
+
     @Test
     public void yazdan46() {
         String expected = "Hello! My name is Nasim! " +
