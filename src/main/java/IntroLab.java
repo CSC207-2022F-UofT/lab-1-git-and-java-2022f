@@ -5,6 +5,7 @@
  * are labelled with TODO!
  */
 
+
 public class IntroLab {
 
     /**
@@ -49,9 +50,18 @@ public class IntroLab {
                 "Welcome to CSC207!");
     }
 
+    public static String yazdan46() {
+        return printLabMessage("Hello", "Nasim", true,
+                "Welcome to CSC207!");
+    }
+
+
 
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
+        System.out.println(yazdan46());
+
+
 
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
@@ -62,6 +72,8 @@ public class IntroLab {
 
 
     }
+
+
 
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
