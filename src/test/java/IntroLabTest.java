@@ -25,6 +25,14 @@ public class IntroLabTest {
         assertEquals(expected, actual);
     }
 
+    @Test
+    public void testExampleZachDang() {
+        String expected = "Hello! My name is danggia! "
+                + "I like cats more than dogs! Learning a new language is hard :(";
+        String actual = IntroLab.exampleZachDang();
+        assertEquals(expected, actual);
+    }
+
     /* TODO: Write a test case for the method you wrote in IntroLab.
      *       If done properly, you should be able to run IntroLabTest and see
      *       the test results.
