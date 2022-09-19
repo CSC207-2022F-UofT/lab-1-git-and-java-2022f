@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="IntroLabTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-12T21:52:19" hostname="DESKTOP-HAIAM4C" time="0.063">
+  <properties/>
+  <testcase name="testIntroMethod" classname="IntroLabTest" time="0.061"/>
+  <testcase name="testExampleStudent" classname="IntroLabTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

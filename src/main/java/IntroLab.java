@@ -40,7 +40,10 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
-
+    public static String mallaseaTest(){
+        String string = printLabMessage("Hello There!", "Sean", true, "I love coding too!");
+        return string;
+    }
     /**
      * An example method that calls on printLabMessage.
      */
@@ -59,7 +62,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
-
+        System.out.println(mallaseaTest());
 
     }
 

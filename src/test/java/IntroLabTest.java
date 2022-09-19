@@ -17,7 +17,7 @@ public class IntroLabTest {
     public void tearDown() {
     }
 
-    @Test(timeout = 10)
+    @Test(timeout = 100000)
     public void testExampleStudent() {
         String expected = "Hello! My name is Stu Dent! " +
                 "I like cats more than dogs! Welcome to CSC207!";
@@ -30,4 +30,9 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 1000000)
+    public void testIntroMethod(){
+        String expected = "Hello There!! My name is Sean! I like cats more than dogs! I love coding too!";
+        assertEquals(expected, IntroLab.mallaseaTest());
+    }
 }
