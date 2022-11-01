@@ -10,7 +10,7 @@ public class IntroLab {
     /**
      * Returns a message depending on the given greeting, name, message, and
      * whether the caller likes cats or dogs more.
-     *
+     * <p>
      * Do NOT change this method!
      *
      * @param greeting   A string with a greeting (e.g. "Hello", "Hey")
@@ -20,8 +20,7 @@ public class IntroLab {
      * @param message    A message to be printed out.
      * @return A message using the given parameters.
      */
-    public static String printLabMessage(String greeting, String name,
-                                  boolean likes_cats, String message) {
+    public static String printLabMessage(String greeting, String name, boolean likes_cats, String message) {
         String message_to_print = greeting + "! My name is " + name + "! ";
 
         if (likes_cats) {
@@ -31,6 +30,10 @@ public class IntroLab {
         }
 
         return message_to_print + message;
+    }
+
+    public static String perlmane() {
+        return printLabMessage("Hello", "Elad", true, "");
     }
 
     /* TODO: In the space below, write your our method.
@@ -45,24 +48,10 @@ public class IntroLab {
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
-        return printLabMessage("Hello", "Stu Dent", true,
-                "Welcome to CSC207!");
+        return printLabMessage("Hello", "Stu Dent", true, "Welcome to CSC207!");
     }
-
 
     public static void main(final String[] args) {
-        System.out.println(exampleStudent());
-
-        /* TODO: Add a call to the method you wrote in this main method,
-         *        and print the results of it.
-         *
-         * As a reference, we've provided a sample call to exampleStudent
-         * above. Afterwards: run this file to see the output!
-         */
-
-
+        System.out.println(perlmane());
     }
-
-    // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
-
 }
